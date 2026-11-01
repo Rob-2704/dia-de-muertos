@@ -1,13 +1,12 @@
 const DATABASE_URL = 'https://cancionero2-a8cda-default-rtdb.firebaseio.com/';
 const FIREBASE_VERSION = '10.8.0';
-const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyA3g3DmWC_mYrA2RFj75sOoX9kolmzKINA",
-    authDomain: "rondalla-f04a4.firebaseapp.com",
-    databaseURL: DATABASE_URL,
-    projectId: "rondalla-f04a4",
-    storageBucket: "rondalla-f04a4.firebasestorage.app",
-    messagingSenderId: "835273996097",
-    appId: "1:835273996097:web:f1258c2f461ef6613513c0"
+const firebaseConfig = {
+  apiKey: "AIzaSyA0nbfiEZEhOrQ2RUb2ZtGkg9-swKQIpKI",
+  authDomain: "cancionero2-a8cda.firebaseapp.com",
+  projectId: "cancionero2-a8cda",
+  storageBucket: "cancionero2-a8cda.firebasestorage.app",
+  messagingSenderId: "1015088270682",
+  appId: "1:1015088270682:web:7d92c8054b8e8964c9b763"
 };
 
 const IDB_NOMBRE = 'cancionero-perla';
