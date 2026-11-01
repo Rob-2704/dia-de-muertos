@@ -1,4 +1,4 @@
-const VERSION = '1.73';
+const VERSION = '1.74';
 const CACHE_APP = `cancionero-app-${VERSION}`;
 const CACHE_CDN = 'cancionero-cdn-v1';
 const CACHE_MUESTRAS = 'cancionero-muestras-v1';
