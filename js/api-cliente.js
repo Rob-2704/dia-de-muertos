@@ -9,11 +9,11 @@ const FIREBASE_CONFIG = {
     appId: "1:1015088270682:web:7d92c8054b8e8964c9b763"
 };
 
-const IDB_NOMBRE = 'cancionero-perla';
+const IDB_NOMBRE = 'cancionero';
 const IDB_VERSION = 2;
-const STORAGE_KEY_CANCIONES = 'cache_canciones_perla_v1'; // copia antigua (se migra a IndexedDB)
-const STORAGE_KEY_EVENTOS = 'cache_eventos_perla';
-const STORAGE_KEY_AVISOS = 'cache_avisos_perla';
+const STORAGE_KEY_CANCIONES = 'cache_canciones'; // copia antigua (se migra a IndexedDB)
+const STORAGE_KEY_EVENTOS = 'cache_eventos';
+const STORAGE_KEY_AVISOS = 'cache_avisos';
 
 const TIMEOUT_REST_MS = 12000;
 const TIMEOUT_SDK_MS = 10000;

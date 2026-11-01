@@ -1,8 +1,8 @@
-const VERSION = '1.74';
-const CACHE_APP = `cancionero-app-${VERSION}`;
-const CACHE_CDN = 'cancionero-cdn-v1';
-const CACHE_MUESTRAS = 'cancionero-muestras-v1';
-const CACHE_AUDIO_META = 'cancionero-audio-meta-v1';
+const VERSION = '1.75';
+const CACHE_APP = `cancionero-app-v2-${VERSION}`;
+const CACHE_CDN = 'cancionero-cdn-v2';
+const CACHE_MUESTRAS = 'cancionero-muestras-v2';
+const CACHE_AUDIO_META = 'cancionero-audio-meta-v2';
 const CACHES_VALIDAS = [CACHE_APP, CACHE_CDN, CACHE_MUESTRAS, CACHE_AUDIO_META];
 
 const ASSETS_TO_CACHE = [
